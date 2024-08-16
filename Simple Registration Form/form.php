@@ -77,7 +77,7 @@
          </p>
          <p>
             <label for="Gender">Gender:</label>
-            <input type="text" name="gender" id="Gender">
+            <input type="text" name="gender" id="Gender" required>
          </p>
          <p>
             <label for="Address">Address:</label>
