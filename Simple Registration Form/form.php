@@ -73,7 +73,7 @@
       <form action="connection.php" method="post">
          <p>
             <label for="name">Enter your Name:</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" required>
          </p>
          <p>
             <label for="Gender">Gender:</label>
