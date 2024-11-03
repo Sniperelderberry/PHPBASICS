@@ -1,0 +1,24 @@
+
+        <p>
+            <label for="MBNUMBER">PLEASE ENTER YOUR MOBILE NUMBER:</label>
+            <input type="number" name="MBNUMBER" required>
+        </p>
+        <p>
+            <label for="BRAND">PLEASE SELECT THE MOST PREFERABLE BRAND:</label>
+            <select name="BRAND">
+                <option value="" disabled selected>SELECT THE BRANDS</option>
+                <option value="ROYAL ENFIELD">ROYAL ENFIELD</option>
+                <option value="JAWA">JAWA</option>
+                <option value="YEZDI">YEZDI</option>
+                <option value="BAJAJ">BAJAJ</option>
+                <option value="HERO HONDA">HERO HONDA</option>
+                <option value="TVS">TVS</option>
+            </select>
+        </p>
+        <p>
+            <label for="RANGE">PLEASE SELECT THE ADEQUATE RANGE:</label>
+            <input type="checkbox" name="BELOW 100K">BELOW 100K
+            <input type="checkbox" name="BELOW 100K">100K-200K
+            <input type="checkbox" name="BELOW 100K">200K-350K
+            <input type="checkbox" name="BELOW 100K">ABOVE 350K
+        </p>
